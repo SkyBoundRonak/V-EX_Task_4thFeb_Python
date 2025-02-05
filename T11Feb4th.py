@@ -4,9 +4,9 @@ def sort_tuples_by_second_element(tuples_list):
     return sorted(tuples_list, key=lambda x: x[1])
 
 def main():
-    # Input list of tuples
+    # list of tuples
     tuples_list = [(1, 2), (3, 1), (5, 4)]
-    # Sort the list
+    # Sorting the list
     sorted_list = sort_tuples_by_second_element(tuples_list)
     # Print the result
     print(sorted_list)
