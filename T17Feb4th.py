@@ -7,7 +7,6 @@ def is_valid_email(email):
     return re.match(pattern, email) is not None
 
 def main():
-    # Input email
     email = input("Enter an email address: ")
     # Check if valid
     if is_valid_email(email):
