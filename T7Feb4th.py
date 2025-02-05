@@ -7,12 +7,9 @@ def check_number(num):
     else:
         return "Zero"
 
-def main():
-    # Input number
+def main():  
     num = float(input("Enter a number: "))
-    # Check the number
-    result = check_number(num)
-    # Print the result
+     result = check_number(num)
     print(result)
 
 if __name__ == "__main__":
