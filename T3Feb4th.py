@@ -4,10 +4,7 @@ def find_largest_number(numbers):
     return max(numbers)
 
 def main():
-    # Example input
     numbers = [2, 3, 1, 4, 9]
-    
-    # Find the largest number
     largest = find_largest_number(numbers)
     print(f"The largest number in the list is: {largest}")
 
