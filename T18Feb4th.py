@@ -6,9 +6,7 @@ def get_current_datetime():
     return now.strftime("%Y-%m-%d %H:%M:%S")
 
 def main():
-    # Get current date and time
     current_datetime = get_current_datetime()
-    # Print the result
     print(f"Current date and time: {current_datetime}")
 
 if __name__ == "__main__":
