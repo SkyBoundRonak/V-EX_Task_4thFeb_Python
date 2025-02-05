@@ -5,11 +5,9 @@ def calculate_factorial(n):
     return math.factorial(n)
 
 def main():
-    # Input number
-    n = int(input("Enter a number: "))
-    # Calculate factorial
+    n = int(input("Enter a number: ")
     result = calculate_factorial(n)
-    # Print the result
+    # Printing the result
     print(f"{n}! = {result}")
 
 if __name__ == "__main__":
