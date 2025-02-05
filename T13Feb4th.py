@@ -1,4 +1,4 @@
-#Task 13: Count Lines and Words in a Text File\
+#Task 13: Count Lines and Words in a Text File
 def count_lines_and_words(filename):
     try:
         with open(filename, 'r') as file:
@@ -12,7 +12,6 @@ def count_lines_and_words(filename):
 def main():
     # Input file name
     filename = input("Enter the file name: ")
-    # Count lines and words
     result = count_lines_and_words(filename)
     if isinstance(result, tuple):
         line_count, word_count = result
